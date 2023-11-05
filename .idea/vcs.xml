@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/Build-and-Deploy-Ecommerce-Website" vcs="Git" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Home_page22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Home_page22/Home_page22" vcs="Git" />
   </component>
 </project>

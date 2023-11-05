@@ -24,32 +24,12 @@
                 <div class="container3-fluid" >
                 <h5 class="p-name" style="color: purple">{{ item.name }}</h5>
                 <h5 class="p-name" style="color: green">{{ item.price }}$</h5>
-                <p class="p-name-" style="color: white">{{ item.stock }} in stock </p>
+                <p class="p-name-" style="color: blueviolet">{{ item.stock }} in stock </p>
                 <a class="btn btn-sm btn-primary" href="/add-cart/{{ item.id }}" style="text-align: center;">Add to chart</a>
-                <button class="btn buy-btn btn-outline btn-success" data-toggle="modal" data-target="#purchase">Purchase this Item</button>
                 </div>
-            </div>
-
-            <div class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Purchase This item</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            <div class="modal-body">
-            Add the following item to your cart list
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a class="btn btn-sm btn-primary" href="/add-cart/{{ item.id }}">Add to chart</a>
-            </div>
-            </div>
-            </div>
         </div>
         {% endfor %}
+        </div>
     </section>
 <nav aria-label="...">
   <ul class="pagination">
@@ -66,5 +46,4 @@
     </li>
   </ul>
 </nav>
-                        <button class="btn btn-outline btn-info">More Info</button>
 {% endblock %}

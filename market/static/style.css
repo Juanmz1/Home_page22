@@ -152,10 +152,7 @@ body > nav:nth-child(3) > ul > li:nth-child(n):hover >a {
     text-align: center;
     gap: 80px;
     justify-content: space-evenly;
-}
-
-.container3-fluid {
-    margin-top: 20px;
-    align-item: center;
-    text-align: center;
+    }
+container3-fluid .p-name-{
+    color: black;
 }

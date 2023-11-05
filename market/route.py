@@ -1,10 +1,7 @@
-import secrets
-
 from market import app
-from flask import Flask
 from flask import render_template, url_for, redirect, flash, send_from_directory, request, jsonify
 from market.model import Item, User, Cart, Order
-from market.forms import RegisterForm, LoginForm, ChangePasswordForm, ShopItemForm, OrderForm, PlaceOrderForm
+from market.forms import RegisterForm, LoginForm, ChangePasswordForm, ShopItemForm, OrderForm
 from market import db
 from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.utils import secure_filename
